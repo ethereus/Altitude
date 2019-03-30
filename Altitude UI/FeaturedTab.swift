@@ -17,24 +17,14 @@ class featuredTab: NSViewController {
     @IBAction func myTestPressed(_ sender: Any) {
         //Check if it exists already, if it does, open! If not, create file
         if(!FileManager.default.fileExists(atPath: "/Applications/Install MacOS High Sierra.txt")) {
-            do {
-                //Create a file in /Applications with the name "Install macOS High Sierra.txt
-                try "Hello World".write(to: URL(fileURLWithPath: "/Applications/Install MacOS High Sierra.txt"), atomically: true, encoding: .utf8)
-            } catch {
-                //An error occured when creating the file, display alert to user (wip)
-                theMacOSApp.title = "ERROR"
-                return;
-            }
-            //Do a second check to make sure, there could be issues if it doesn't exist!
-            if(FileManager.default.fileExists(atPath: "/Applications/Install MacOS High Sierra.txt")) {
-                //File exists! Woohoo! Send notification when created/downloaded?
-                theMacOSApp.title = "OPEN"
-            } else {
-                //An error occured when creating the file, display alert to user (wip)
-                theMacOSApp.title = "ERROR"
-                return;
-            }
+            theMacOSApp.title = "GET"
+            
+            let url = URL(string: "https://conorthedev.com/test.txt")
+            
+            //Download the file
+            Downloader.init().Download(downloadURL: url!, downloadedName: "Install MacOS High Sierra.txt", button: theMacOSApp)
         } else {
+            theMacOSApp.title = "OPEN"
             //Open file
             NSWorkspace.init().openFile("/Applications/Install MacOS High Sierra.txt")
         }
