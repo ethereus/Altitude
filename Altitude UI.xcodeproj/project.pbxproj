@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D99DE92216519DF00EA30D2 /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99DE91216519DF00EA30D2 /* CustomSegue.swift */; };
+		4DA47C2D2156D1510031ED93 /* Scroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA47C2C2156D1510031ED93 /* Scroller.swift */; };
+		4DB44F1F215BE868008F8CF2 /* FeaturedTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB44F1E215BE868008F8CF2 /* FeaturedTab.swift */; };
+		4DD4BC8721555944001B0E54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD4BC8621555944001B0E54 /* AppDelegate.swift */; };
+		4DD4BC8921555944001B0E54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD4BC8821555944001B0E54 /* ViewController.swift */; };
+		4DD4BC8B21555945001B0E54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DD4BC8A21555945001B0E54 /* Assets.xcassets */; };
+		4DD4BC8E21555945001B0E54 /* DarkMode.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD4BC8C21555945001B0E54 /* DarkMode.storyboard */; };
+		4DD4BC9A21555945001B0E54 /* Altitude_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD4BC9921555945001B0E54 /* Altitude_UITests.swift */; };
+		4DD4BCA521555945001B0E54 /* Altitude_UIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD4BCA421555945001B0E54 /* Altitude_UIUITests.swift */; };
+		765DE32D224ECEF600C76982 /* Altitude.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 765DE32B224ECEF600C76982 /* Altitude.jpg */; };
+		765DE32E224ECEF600C76982 /* developagain.png in Resources */ = {isa = PBXBuildFile; fileRef = 765DE32C224ECEF600C76982 /* developagain.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DD4BC9621555945001B0E54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DD4BC7B21555944001B0E54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DD4BC8221555944001B0E54;
+			remoteInfo = "Altitude UI";
+		};
+		4DD4BCA121555945001B0E54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DD4BC7B21555944001B0E54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DD4BC8221555944001B0E54;
+			remoteInfo = "Altitude UI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D99DE91216519DF00EA30D2 /* CustomSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegue.swift; sourceTree = "<group>"; };
+		4DA47C2C2156D1510031ED93 /* Scroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scroller.swift; sourceTree = "<group>"; };
+		4DB44F1E215BE868008F8CF2 /* FeaturedTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTab.swift; sourceTree = "<group>"; };
+		4DD4BC8321555944001B0E54 /* Altitude UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Altitude UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD4BC8621555944001B0E54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DD4BC8821555944001B0E54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4DD4BC8A21555945001B0E54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DD4BC8D21555945001B0E54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/DarkMode.storyboard; sourceTree = "<group>"; };
+		4DD4BC8F21555945001B0E54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DD4BC9021555945001B0E54 /* Altitude_UI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Altitude_UI.entitlements; sourceTree = "<group>"; };
+		4DD4BC9521555945001B0E54 /* Altitude UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Altitude UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD4BC9921555945001B0E54 /* Altitude_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Altitude_UITests.swift; sourceTree = "<group>"; };
+		4DD4BC9B21555945001B0E54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DD4BCA021555945001B0E54 /* Altitude UIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Altitude UIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD4BCA421555945001B0E54 /* Altitude_UIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Altitude_UIUITests.swift; sourceTree = "<group>"; };
+		4DD4BCA621555945001B0E54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		765DE32B224ECEF600C76982 /* Altitude.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Altitude.jpg; sourceTree = "<group>"; };
+		765DE32C224ECEF600C76982 /* developagain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = developagain.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DD4BC8021555944001B0E54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD4BC9221555945001B0E54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD4BC9D21555945001B0E54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DD4BC7A21555944001B0E54 = {
+			isa = PBXGroup;
+			children = (
+				4DD4BC8521555944001B0E54 /* Altitude UI */,
+				4DD4BC9821555945001B0E54 /* Altitude UITests */,
+				4DD4BCA321555945001B0E54 /* Altitude UIUITests */,
+				4DD4BC8421555944001B0E54 /* Products */,
+				765DE32A224ECEF600C76982 /* Images */,
+			);
+			sourceTree = "<group>";
+		};
+		4DD4BC8421555944001B0E54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DD4BC8321555944001B0E54 /* Altitude UI.app */,
+				4DD4BC9521555945001B0E54 /* Altitude UITests.xctest */,
+				4DD4BCA021555945001B0E54 /* Altitude UIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DD4BC8521555944001B0E54 /* Altitude UI */ = {
+			isa = PBXGroup;
+			children = (
+				4DD4BC8621555944001B0E54 /* AppDelegate.swift */,
+				4DD4BC8821555944001B0E54 /* ViewController.swift */,
+				4DA47C2C2156D1510031ED93 /* Scroller.swift */,
+				4DB44F1E215BE868008F8CF2 /* FeaturedTab.swift */,
+				4D99DE91216519DF00EA30D2 /* CustomSegue.swift */,
+				4DD4BC8A21555945001B0E54 /* Assets.xcassets */,
+				4DD4BC8C21555945001B0E54 /* DarkMode.storyboard */,
+				4DD4BC8F21555945001B0E54 /* Info.plist */,
+				4DD4BC9021555945001B0E54 /* Altitude_UI.entitlements */,
+			);
+			path = "Altitude UI";
+			sourceTree = "<group>";
+		};
+		4DD4BC9821555945001B0E54 /* Altitude UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4DD4BC9921555945001B0E54 /* Altitude_UITests.swift */,
+				4DD4BC9B21555945001B0E54 /* Info.plist */,
+			);
+			path = "Altitude UITests";
+			sourceTree = "<group>";
+		};
+		4DD4BCA321555945001B0E54 /* Altitude UIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4DD4BCA421555945001B0E54 /* Altitude_UIUITests.swift */,
+				4DD4BCA621555945001B0E54 /* Info.plist */,
+			);
+			path = "Altitude UIUITests";
+			sourceTree = "<group>";
+		};
+		765DE32A224ECEF600C76982 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				765DE32B224ECEF600C76982 /* Altitude.jpg */,
+				765DE32C224ECEF600C76982 /* developagain.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DD4BC8221555944001B0E54 /* Altitude UI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DD4BCA921555945001B0E54 /* Build configuration list for PBXNativeTarget "Altitude UI" */;
+			buildPhases = (
+				4DD4BC7F21555944001B0E54 /* Sources */,
+				4DD4BC8021555944001B0E54 /* Frameworks */,
+				4DD4BC8121555944001B0E54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Altitude UI";
+			productName = "Altitude UI";
+			productReference = 4DD4BC8321555944001B0E54 /* Altitude UI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DD4BC9421555945001B0E54 /* Altitude UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DD4BCAC21555945001B0E54 /* Build configuration list for PBXNativeTarget "Altitude UITests" */;
+			buildPhases = (
+				4DD4BC9121555945001B0E54 /* Sources */,
+				4DD4BC9221555945001B0E54 /* Frameworks */,
+				4DD4BC9321555945001B0E54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DD4BC9721555945001B0E54 /* PBXTargetDependency */,
+			);
+			name = "Altitude UITests";
+			productName = "Altitude UITests";
+			productReference = 4DD4BC9521555945001B0E54 /* Altitude UITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4DD4BC9F21555945001B0E54 /* Altitude UIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DD4BCAF21555945001B0E54 /* Build configuration list for PBXNativeTarget "Altitude UIUITests" */;
+			buildPhases = (
+				4DD4BC9C21555945001B0E54 /* Sources */,
+				4DD4BC9D21555945001B0E54 /* Frameworks */,
+				4DD4BC9E21555945001B0E54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DD4BCA221555945001B0E54 /* PBXTargetDependency */,
+			);
+			name = "Altitude UIUITests";
+			productName = "Altitude UIUITests";
+			productReference = 4DD4BCA021555945001B0E54 /* Altitude UIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DD4BC7B21555944001B0E54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					New,
+				);
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = EvenDev;
+				TargetAttributes = {
+					4DD4BC8221555944001B0E54 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					4DD4BC9421555945001B0E54 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 4DD4BC8221555944001B0E54;
+					};
+					4DD4BC9F21555945001B0E54 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 4DD4BC8221555944001B0E54;
+					};
+				};
+			};
+			buildConfigurationList = 4DD4BC7E21555944001B0E54 /* Build configuration list for PBXProject "Altitude UI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DD4BC7A21555944001B0E54;
+			productRefGroup = 4DD4BC8421555944001B0E54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DD4BC8221555944001B0E54 /* Altitude UI */,
+				4DD4BC9421555945001B0E54 /* Altitude UITests */,
+				4DD4BC9F21555945001B0E54 /* Altitude UIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DD4BC8121555944001B0E54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				765DE32D224ECEF600C76982 /* Altitude.jpg in Resources */,
+				4DD4BC8B21555945001B0E54 /* Assets.xcassets in Resources */,
+				765DE32E224ECEF600C76982 /* developagain.png in Resources */,
+				4DD4BC8E21555945001B0E54 /* DarkMode.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD4BC9321555945001B0E54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD4BC9E21555945001B0E54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DD4BC7F21555944001B0E54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DA47C2D2156D1510031ED93 /* Scroller.swift in Sources */,
+				4DD4BC8921555944001B0E54 /* ViewController.swift in Sources */,
+				4DD4BC8721555944001B0E54 /* AppDelegate.swift in Sources */,
+				4D99DE92216519DF00EA30D2 /* CustomSegue.swift in Sources */,
+				4DB44F1F215BE868008F8CF2 /* FeaturedTab.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD4BC9121555945001B0E54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD4BC9A21555945001B0E54 /* Altitude_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD4BC9C21555945001B0E54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD4BCA521555945001B0E54 /* Altitude_UIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DD4BC9721555945001B0E54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DD4BC8221555944001B0E54 /* Altitude UI */;
+			targetProxy = 4DD4BC9621555945001B0E54 /* PBXContainerItemProxy */;
+		};
+		4DD4BCA221555945001B0E54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DD4BC8221555944001B0E54 /* Altitude UI */;
+			targetProxy = 4DD4BCA121555945001B0E54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DD4BC8C21555945001B0E54 /* DarkMode.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DD4BC8D21555945001B0E54 /* Base */,
+			);
+			name = DarkMode.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DD4BCA721555945001B0E54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DD4BCA821555945001B0E54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4DD4BCAA21555945001B0E54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Altitude UI/Altitude_UI.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 469MLTNL8A;
+				INFOPLIST_FILE = "Altitude UI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.conorthedev.Altitude;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		4DD4BCAB21555945001B0E54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Altitude UI/Altitude_UI.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 469MLTNL8A;
+				INFOPLIST_FILE = "Altitude UI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.conorthedev.Altitude;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		4DD4BCAD21555945001B0E54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9859KQSN8L;
+				INFOPLIST_FILE = "Altitude UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "us.evendev.Altitude-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Altitude UI.app/Contents/MacOS/Altitude UI";
+			};
+			name = Debug;
+		};
+		4DD4BCAE21555945001B0E54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9859KQSN8L;
+				INFOPLIST_FILE = "Altitude UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "us.evendev.Altitude-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Altitude UI.app/Contents/MacOS/Altitude UI";
+			};
+			name = Release;
+		};
+		4DD4BCB021555945001B0E54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9859KQSN8L;
+				INFOPLIST_FILE = "Altitude UIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "us.evendev.Altitude-UIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "Altitude UI";
+			};
+			name = Debug;
+		};
+		4DD4BCB121555945001B0E54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9859KQSN8L;
+				INFOPLIST_FILE = "Altitude UIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "us.evendev.Altitude-UIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "Altitude UI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DD4BC7E21555944001B0E54 /* Build configuration list for PBXProject "Altitude UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD4BCA721555945001B0E54 /* Debug */,
+				4DD4BCA821555945001B0E54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DD4BCA921555945001B0E54 /* Build configuration list for PBXNativeTarget "Altitude UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD4BCAA21555945001B0E54 /* Debug */,
+				4DD4BCAB21555945001B0E54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DD4BCAC21555945001B0E54 /* Build configuration list for PBXNativeTarget "Altitude UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD4BCAD21555945001B0E54 /* Debug */,
+				4DD4BCAE21555945001B0E54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DD4BCAF21555945001B0E54 /* Build configuration list for PBXNativeTarget "Altitude UIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD4BCB021555945001B0E54 /* Debug */,
+				4DD4BCB121555945001B0E54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DD4BC7B21555944001B0E54 /* Project object */;
+}

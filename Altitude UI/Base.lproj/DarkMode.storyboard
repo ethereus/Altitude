@@ -898,15 +898,18 @@
                                                                     <rect key="frame" x="1" y="1" width="73" height="23"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                     <subviews>
-                                                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Kt-9m-QL0">
-                                                                            <rect key="frame" x="0.0" y="3" width="73" height="17"/>
+                                                                        <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ds9-BW-DGC">
+                                                                            <rect key="frame" x="10" y="1" width="54" height="21"/>
                                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="GET" id="kUS-hx-LNL">
+                                                                            <buttonCell key="cell" type="bevel" title="GET" bezelStyle="rounded" alignment="center" state="on" imageScaling="proportionallyDown" inset="2" id="P8b-eT-5rs">
+                                                                                <behavior key="behavior" lightByContents="YES"/>
                                                                                 <font key="font" metaFont="system"/>
-                                                                                <color key="textColor" red="0.3803921569" green="0.69019607839999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                                                <color key="backgroundColor" red="0.3803921569" green="0.69019607839999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                                            </textFieldCell>
-                                                                        </textField>
+                                                                            </buttonCell>
+                                                                            <color key="contentTintColor" red="0.3803921569" green="0.69019607839999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                            <connections>
+                                                                                <action selector="myTestPressed:" target="XfG-lQ-9wD" id="BSf-FQ-cMU"/>
+                                                                            </connections>
+                                                                        </button>
                                                                     </subviews>
                                                                 </view>
                                                                 <color key="borderColor" red="0.97933279419999997" green="0.97807776489999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1563,7 +1566,7 @@
                         <outlet property="manageBox" destination="QJk-F5-DvO" id="K5X-eZ-dSN"/>
                         <outlet property="sourcesBox" destination="DY6-Ie-lbj" id="NdW-Kz-8GS"/>
                         <outlet property="theBigGay" destination="PLp-IO-pCk" id="Aof-af-kH5"/>
-                        <outlet property="theMacOSLabel" destination="0Kt-9m-QL0" id="FFr-25-3il"/>
+                        <outlet property="theMacOSApp" destination="Ds9-BW-DGC" id="shO-x6-O7m"/>
                         <outlet property="theScrollThing" destination="y5l-zH-NIa" id="h1l-8E-iJN"/>
                         <outlet property="themesBox" destination="bDn-0G-XV1" id="hTP-8g-JJ2"/>
                         <outlet property="tweaksBox" destination="GmY-Zz-ySP" id="YDx-vN-Bim"/>
@@ -4080,6 +4083,6 @@
         <segue reference="i1U-Dc-B73"/>
         <segue reference="7rJ-nb-pFY"/>
         <segue reference="CeI-MX-p4C"/>
-        <segue reference="F8b-vZ-Xfa"/>
+        <segue reference="0id-MC-BXt"/>
     </inferredMetricsTieBreakers>
 </document>
