@@ -834,7 +834,7 @@
                                             </view>
                                             <color key="fillColor" red="0.33791103950000001" green="0.3473417405" blue="0.36593075050000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </box>
-                                        <scrollView fixedFrame="YES" borderType="none" horizontalLineScroll="0.0" horizontalPageScroll="100" verticalLineScroll="0.0" verticalPageScroll="10" hasHorizontalScroller="NO" hasVerticalScroller="NO" usesPredominantAxisScrolling="NO" scrollerKnobStyle="light" translatesAutoresizingMaskIntoConstraints="NO" id="kUj-Zr-OyF">
+                                        <scrollView fixedFrame="YES" borderType="none" horizontalLineScroll="0.0" horizontalPageScroll="100" verticalLineScroll="0.0" verticalPageScroll="0.0" hasHorizontalScroller="NO" hasVerticalScroller="NO" usesPredominantAxisScrolling="NO" verticalScrollElasticity="none" scrollerKnobStyle="light" translatesAutoresizingMaskIntoConstraints="NO" id="kUj-Zr-OyF">
                                             <rect key="frame" x="20" y="7" width="883" height="317"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                             <clipView key="contentView" ambiguous="YES" drawsBackground="NO" copiesOnScroll="NO" id="bQN-oH-2Un">
