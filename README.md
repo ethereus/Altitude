@@ -11,7 +11,7 @@ There were many people involved in the creation of Altitude back in 2018, even a
 
 A lot of people worked hard but there was hardly any progress made after many months and so the team slowly started to fall apart. Now however the project is being carried on by a few members of the team that have chosen to give their time towards it once more, and we hope that it will be completed this time around.
 
-Anyone is able to make changes or additions to this software although we ask that if possible you also use the UNLICENSE to keep this project free :)
+Anyone is able to make changes or additions to this software although we ask that if possible you also use the UNLICENSE to keep this project completely free :)
 
 # Important
 
