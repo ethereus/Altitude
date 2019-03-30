@@ -2004,7 +2004,7 @@
                                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KBb-51-so8">
                                                                 <rect key="frame" x="118" y="101" width="297" height="26"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
-                                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="MacOS Mojave" id="cnF-G2-2Gm">
+                                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="App Name" id="cnF-G2-2Gm">
                                                                     <font key="font" metaFont="system" size="18"/>
                                                                     <color key="textColor" red="0.80392156859999997" green="0.80000000000000004" blue="0.81568627449999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     <color key="backgroundColor" red="0.80392156859999997" green="0.80000000000000004" blue="0.81568627449999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -5687,7 +5687,7 @@
         <segue reference="xgf-Cc-TIP"/>
         <segue reference="Myf-u2-2ZK"/>
         <segue reference="itw-ev-Npo"/>
-        <segue reference="YWB-vW-Ptu"/>
+        <segue reference="OBa-9d-zqP"/>
         <segue reference="5gp-sh-24x"/>
     </inferredMetricsTieBreakers>
 </document>
