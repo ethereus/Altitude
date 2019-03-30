@@ -21,7 +21,7 @@ System modifications / extensions can be installed anywhere /advanced users only
 
 Tweaks are injected into GUI processes,
 
-Code injection is dangerous, and might make your computer unstable or unusable if you don't know what you're doing. Install tweaks with care. In case of emergency, delete /Library/LaunchDaemons/local.lsdinjector.plist using the recovery boot.
+Code injection is dangerous, and might make your computer unstable or unusable if you don't know what you're doing. Install tweaks with care. In case of emergency, delete ``/Library/LaunchDaemons/local.lsdinjector.plist`` using the recovery boot.
 
 # Thanks
 
