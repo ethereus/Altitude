@@ -13,6 +13,10 @@ A lot of people worked hard but there was hardly any progress made after many mo
 
 Anyone is able to make changes or additions to this software although we ask that if possible you also use the UNLICENSE to keep this project completely free :)
 
+# Current Members: 
+
+@Acryllect, @RayFolf, @even_dev, @NDarazaki, @f4d3z, @ConorTheDev, @iSn0wee, @A_MrBenMitchell, @Chr0nicT
+
 # Important
 
 Applications downloaded are installed to ``/Applications`` with the default macOS apps
