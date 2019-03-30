@@ -1,6 +1,6 @@
 # Altitude
 
-**A package manager / tweak store for macOS**
+**A package manager / tweak installer for macOS**
 
 **Project will continue to be open sourced under the UNLICENSE**
 
