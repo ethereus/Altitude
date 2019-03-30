@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4712DB7C225025F300E69C6D /* NSApplication+DataDir.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712DB57225025F300E69C6D /* NSApplication+DataDir.m */; };
+		4712DB7D225025F300E69C6D /* Download.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712DB5B225025F300E69C6D /* Download.m */; };
+		4712DB7E225025F300E69C6D /* Unzip.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712DB5F225025F300E69C6D /* Unzip.m */; };
+		4712DB7F225025F300E69C6D /* FileNameToPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712DB62225025F300E69C6D /* FileNameToPattern.m */; };
+		4712DB80225025F300E69C6D /* Repository.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712DB65225025F300E69C6D /* Repository.m */; };
+		4712DB81225025F300E69C6D /* RepositoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712DB67225025F300E69C6D /* RepositoryManager.m */; };
+		4712DB82225025F300E69C6D /* NSDictionary+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712DB6B225025F300E69C6D /* NSDictionary+JSON.m */; };
+		4712DB83225025F300E69C6D /* Package.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712DB6D225025F300E69C6D /* Package.m */; };
+		4712DB84225025F300E69C6D /* PackageType.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712DB6E225025F300E69C6D /* PackageType.m */; };
+		4712DB85225025F300E69C6D /* PackageVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712DB72225025F300E69C6D /* PackageVersion.m */; };
+		4712DB86225025F300E69C6D /* Stopwatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712DB74225025F300E69C6D /* Stopwatch.m */; };
+		4712DB87225025F300E69C6D /* NSString+AltitudeStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712DB77225025F300E69C6D /* NSString+AltitudeStore.m */; };
+		4712DB88225025F300E69C6D /* ASException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712DB7B225025F300E69C6D /* ASException.m */; };
 		4D99DE92216519DF00EA30D2 /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99DE91216519DF00EA30D2 /* CustomSegue.swift */; };
 		4DA47C2D2156D1510031ED93 /* Scroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA47C2C2156D1510031ED93 /* Scroller.swift */; };
 		4DB44F1F215BE868008F8CF2 /* FeaturedTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB44F1E215BE868008F8CF2 /* FeaturedTab.swift */; };
@@ -39,6 +52,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4712DB57225025F300E69C6D /* NSApplication+DataDir.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSApplication+DataDir.m"; sourceTree = "<group>"; };
+		4712DB58225025F300E69C6D /* NSString+AltitudeStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AltitudeStore.h"; sourceTree = "<group>"; };
+		4712DB59225025F300E69C6D /* SharedMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedMacros.h; sourceTree = "<group>"; };
+		4712DB5B225025F300E69C6D /* Download.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Download.m; sourceTree = "<group>"; };
+		4712DB5C225025F300E69C6D /* Download.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Download.h; sourceTree = "<group>"; };
+		4712DB5F225025F300E69C6D /* Unzip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Unzip.m; sourceTree = "<group>"; };
+		4712DB60225025F300E69C6D /* FileNameToPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileNameToPattern.h; sourceTree = "<group>"; };
+		4712DB61225025F300E69C6D /* Unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unzip.h; sourceTree = "<group>"; };
+		4712DB62225025F300E69C6D /* FileNameToPattern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileNameToPattern.m; sourceTree = "<group>"; };
+		4712DB64225025F300E69C6D /* Repository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Repository.h; sourceTree = "<group>"; };
+		4712DB65225025F300E69C6D /* Repository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Repository.m; sourceTree = "<group>"; };
+		4712DB67225025F300E69C6D /* RepositoryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepositoryManager.m; sourceTree = "<group>"; };
+		4712DB68225025F300E69C6D /* RepositoryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepositoryManager.h; sourceTree = "<group>"; };
+		4712DB6A225025F300E69C6D /* NSDictionary+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSON.h"; sourceTree = "<group>"; };
+		4712DB6B225025F300E69C6D /* NSDictionary+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSON.m"; sourceTree = "<group>"; };
+		4712DB6D225025F300E69C6D /* Package.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Package.m; sourceTree = "<group>"; };
+		4712DB6E225025F300E69C6D /* PackageType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PackageType.m; sourceTree = "<group>"; };
+		4712DB6F225025F300E69C6D /* PackageVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PackageVersion.h; sourceTree = "<group>"; };
+		4712DB70225025F300E69C6D /* Package.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Package.h; sourceTree = "<group>"; };
+		4712DB71225025F300E69C6D /* PackageType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PackageType.h; sourceTree = "<group>"; };
+		4712DB72225025F300E69C6D /* PackageVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PackageVersion.m; sourceTree = "<group>"; };
+		4712DB74225025F300E69C6D /* Stopwatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stopwatch.m; sourceTree = "<group>"; };
+		4712DB75225025F300E69C6D /* Stopwatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stopwatch.h; sourceTree = "<group>"; };
+		4712DB76225025F300E69C6D /* NSApplication+DataDir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSApplication+DataDir.h"; sourceTree = "<group>"; };
+		4712DB77225025F300E69C6D /* NSString+AltitudeStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AltitudeStore.m"; sourceTree = "<group>"; };
+		4712DB79225025F300E69C6D /* ASException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASException.h; sourceTree = "<group>"; };
+		4712DB7A225025F300E69C6D /* ASExceptionType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASExceptionType.h; sourceTree = "<group>"; };
+		4712DB7B225025F300E69C6D /* ASException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASException.m; sourceTree = "<group>"; };
+		4712DB892250260A00E69C6D /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
 		4D99DE91216519DF00EA30D2 /* CustomSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegue.swift; sourceTree = "<group>"; };
 		4DA47C2C2156D1510031ED93 /* Scroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scroller.swift; sourceTree = "<group>"; };
 		4DB44F1E215BE868008F8CF2 /* FeaturedTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTab.swift; sourceTree = "<group>"; };
@@ -85,6 +127,113 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4712DB56225025F300E69C6D /* Altitude Core */ = {
+			isa = PBXGroup;
+			children = (
+				4712DB57225025F300E69C6D /* NSApplication+DataDir.m */,
+				4712DB58225025F300E69C6D /* NSString+AltitudeStore.h */,
+				4712DB59225025F300E69C6D /* SharedMacros.h */,
+				4712DB5A225025F300E69C6D /* Download */,
+				4712DB5D225025F300E69C6D /* Repository System */,
+				4712DB73225025F300E69C6D /* Stopwatch */,
+				4712DB76225025F300E69C6D /* NSApplication+DataDir.h */,
+				4712DB77225025F300E69C6D /* NSString+AltitudeStore.m */,
+				4712DB78225025F300E69C6D /* Exception */,
+			);
+			path = "Altitude Core";
+			sourceTree = "<group>";
+		};
+		4712DB5A225025F300E69C6D /* Download */ = {
+			isa = PBXGroup;
+			children = (
+				4712DB5B225025F300E69C6D /* Download.m */,
+				4712DB5C225025F300E69C6D /* Download.h */,
+			);
+			path = Download;
+			sourceTree = "<group>";
+		};
+		4712DB5D225025F300E69C6D /* Repository System */ = {
+			isa = PBXGroup;
+			children = (
+				4712DB5E225025F300E69C6D /* Zip Files */,
+				4712DB63225025F300E69C6D /* Repository */,
+				4712DB66225025F300E69C6D /* RepositoryManager */,
+				4712DB69225025F300E69C6D /* NSDictionary+JSON */,
+				4712DB6C225025F300E69C6D /* Package */,
+			);
+			path = "Repository System";
+			sourceTree = "<group>";
+		};
+		4712DB5E225025F300E69C6D /* Zip Files */ = {
+			isa = PBXGroup;
+			children = (
+				4712DB5F225025F300E69C6D /* Unzip.m */,
+				4712DB60225025F300E69C6D /* FileNameToPattern.h */,
+				4712DB61225025F300E69C6D /* Unzip.h */,
+				4712DB62225025F300E69C6D /* FileNameToPattern.m */,
+			);
+			path = "Zip Files";
+			sourceTree = "<group>";
+		};
+		4712DB63225025F300E69C6D /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				4712DB64225025F300E69C6D /* Repository.h */,
+				4712DB65225025F300E69C6D /* Repository.m */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		4712DB66225025F300E69C6D /* RepositoryManager */ = {
+			isa = PBXGroup;
+			children = (
+				4712DB67225025F300E69C6D /* RepositoryManager.m */,
+				4712DB68225025F300E69C6D /* RepositoryManager.h */,
+			);
+			path = RepositoryManager;
+			sourceTree = "<group>";
+		};
+		4712DB69225025F300E69C6D /* NSDictionary+JSON */ = {
+			isa = PBXGroup;
+			children = (
+				4712DB6A225025F300E69C6D /* NSDictionary+JSON.h */,
+				4712DB6B225025F300E69C6D /* NSDictionary+JSON.m */,
+			);
+			path = "NSDictionary+JSON";
+			sourceTree = "<group>";
+		};
+		4712DB6C225025F300E69C6D /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				4712DB6D225025F300E69C6D /* Package.m */,
+				4712DB6E225025F300E69C6D /* PackageType.m */,
+				4712DB6F225025F300E69C6D /* PackageVersion.h */,
+				4712DB70225025F300E69C6D /* Package.h */,
+				4712DB71225025F300E69C6D /* PackageType.h */,
+				4712DB72225025F300E69C6D /* PackageVersion.m */,
+			);
+			path = Package;
+			sourceTree = "<group>";
+		};
+		4712DB73225025F300E69C6D /* Stopwatch */ = {
+			isa = PBXGroup;
+			children = (
+				4712DB74225025F300E69C6D /* Stopwatch.m */,
+				4712DB75225025F300E69C6D /* Stopwatch.h */,
+			);
+			path = Stopwatch;
+			sourceTree = "<group>";
+		};
+		4712DB78225025F300E69C6D /* Exception */ = {
+			isa = PBXGroup;
+			children = (
+				4712DB79225025F300E69C6D /* ASException.h */,
+				4712DB7A225025F300E69C6D /* ASExceptionType.h */,
+				4712DB7B225025F300E69C6D /* ASException.m */,
+			);
+			path = Exception;
+			sourceTree = "<group>";
+		};
 		4DD4BC7A21555944001B0E54 = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +268,8 @@
 				4DD4BC8F21555945001B0E54 /* Info.plist */,
 				4DD4BC9021555945001B0E54 /* Altitude_UI.entitlements */,
 				E10B3B46224FA92F0013632A /* Downloader.swift */,
+				4712DB892250260A00E69C6D /* BridgingHeader.h */,
+				4712DB56225025F300E69C6D /* Altitude Core */,
 			);
 			path = "Altitude UI";
 			sourceTree = "<group>";
@@ -285,12 +436,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4712DB83225025F300E69C6D /* Package.m in Sources */,
+				4712DB86225025F300E69C6D /* Stopwatch.m in Sources */,
 				4DA47C2D2156D1510031ED93 /* Scroller.swift in Sources */,
+				4712DB81225025F300E69C6D /* RepositoryManager.m in Sources */,
 				4DD4BC8921555944001B0E54 /* ViewController.swift in Sources */,
 				E10B3B47224FA92F0013632A /* Downloader.swift in Sources */,
 				4DD4BC8721555944001B0E54 /* AppDelegate.swift in Sources */,
+				4712DB84225025F300E69C6D /* PackageType.m in Sources */,
+				4712DB82225025F300E69C6D /* NSDictionary+JSON.m in Sources */,
+				4712DB80225025F300E69C6D /* Repository.m in Sources */,
+				4712DB7C225025F300E69C6D /* NSApplication+DataDir.m in Sources */,
+				4712DB7D225025F300E69C6D /* Download.m in Sources */,
+				4712DB88225025F300E69C6D /* ASException.m in Sources */,
+				4712DB7E225025F300E69C6D /* Unzip.m in Sources */,
 				4D99DE92216519DF00EA30D2 /* CustomSegue.swift in Sources */,
+				4712DB85225025F300E69C6D /* PackageVersion.m in Sources */,
+				4712DB7F225025F300E69C6D /* FileNameToPattern.m in Sources */,
 				4DB44F1F215BE868008F8CF2 /* FeaturedTab.swift in Sources */,
+				4712DB87225025F300E69C6D /* NSString+AltitudeStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +630,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = com.conorthedev.Altitude;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Altitude UI/BridgingHeader.h";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -486,6 +651,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = com.conorthedev.Altitude;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Altitude UI/BridgingHeader.h";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
