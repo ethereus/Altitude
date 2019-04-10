@@ -1293,7 +1293,7 @@
                                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ezF-z1-0cy">
                                                                 <rect key="frame" x="58" y="12" width="91" height="30"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Home" drawsBackground="YES" id="qci-yG-uG5">
+                                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Featured" drawsBackground="YES" id="qci-yG-uG5">
                                                                     <font key="font" metaFont="system" size="20"/>
                                                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -5681,13 +5681,13 @@
         <image name="developagain" width="1440" height="900"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="UYp-Qs-Pdi"/>
-        <segue reference="qB4-f9-tvW"/>
-        <segue reference="1w4-Em-Ee6"/>
-        <segue reference="xgf-Cc-TIP"/>
-        <segue reference="Myf-u2-2ZK"/>
-        <segue reference="itw-ev-Npo"/>
-        <segue reference="OBa-9d-zqP"/>
-        <segue reference="5gp-sh-24x"/>
+        <segue reference="Xap-fY-Qr7"/>
+        <segue reference="wtO-0i-LPH"/>
+        <segue reference="DoO-Sl-HAJ"/>
+        <segue reference="iiM-J0-i0k"/>
+        <segue reference="1Xn-PO-06z"/>
+        <segue reference="dxF-I6-Z7Z"/>
+        <segue reference="pum-my-Mcn"/>
+        <segue reference="A6R-qP-aYo"/>
     </inferredMetricsTieBreakers>
 </document>
