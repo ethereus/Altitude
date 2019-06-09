@@ -29,7 +29,7 @@ Code injection is dangerous, and might make your computer unstable or unusable i
 
 # Thanks
 
-Thanks to @N0rthwnd, @even_dev, @NDarazaki, @Acryllect, @ang3lo_ios, @RayFolf, @f4d3z, @RykerCohen, @Coronux, @0neGuyDev, @SmushyT, @comex
+Thanks to @N0rthwnd, @even_dev, @NDarazaki, @Acryllect, @ang3lo_ios, @RayFolf, @f4d3z, @RykerCohen, @Coronux, @0neGuyDev
 
 Visit the Altitude Team account: https://twitter.com/AltitudeTeamOS
 
